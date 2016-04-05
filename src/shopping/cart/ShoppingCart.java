@@ -24,7 +24,7 @@ public class ShoppingCart {
         Properties properties = new Properties();
         try {
             System.out.println("Loading properties file...");
-            properties.load(new FileInputStream("shoppingCart.properties"));
+            properties.load(new FileInputStream("/Users/Jason/NetBeansProjects/shopping-cart/config/shoppingCart.properties"));
         } catch (IOException ex) {
             System.out.println("IOException - " + ex.getMessage());
         }
@@ -78,12 +78,11 @@ public class ShoppingCart {
         // Method calls
         int total_apple_cost = cost_of_items(apple_buy_ammount, apples_count, apple_value);
         int total_orange_cost = cost_of_items(orange_buy_ammount, oranges_count, orange_value);
-
         double total_basket_cost = total_basket_cost(total_apple_cost, total_orange_cost);
 
         System.out.println("total_basket_cost = " + total_basket_cost);
 
-        System.out.format("£%.2f%n", total_basket_cost /100 );
+        System.out.format("£%.2f%n", total_basket_cost / 100);
 
     }
     // Show cost of items
