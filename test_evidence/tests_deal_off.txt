@@ -1,0 +1,56 @@
+run:
+Item Deal Amount = 1
+Item Count In Shopping Basket = 1
+Item Purchase Value = 60
+Expected Result = £0.60
+Actual Result = £0.60
+
+Item Deal Amount = 1
+Item Count In Shopping Basket = 3
+Item Purchase Value = 60
+Expected Result = £1.80
+Actual Result = £1.80
+
+Item Deal Amount = 1
+Item Count In Shopping Basket = 4
+Item Purchase Value = 60
+Expected Result = £2.40
+Actual Result = £2.40
+
+Item Deal Amount = 1
+Item Count In Shopping Basket = 99
+Item Purchase Value = 60
+Expected Result = £59.40
+Actual Result = £59.40
+
+Item Deal Amount = 2
+Item Count In Shopping Basket = 1
+Item Purchase Value = 25
+Expected Result = £0.25
+Actual Result = £0.25
+
+Item Deal Amount = 2
+Item Count In Shopping Basket = 3
+Item Purchase Value = 25
+Expected Result = £0.75
+Actual Result = £0.75
+
+Item Deal Amount = 2
+Item Count In Shopping Basket = 4
+Item Purchase Value = 25
+Expected Result = £1.00
+Actual Result = £1.00
+
+Item Deal Amount = 2
+Item Count In Shopping Basket = 99
+Item Purchase Value = 25
+Expected Result = £24.75
+Actual Result = £24.75
+
+Item Deal Amount = 0
+Item Count In Shopping Basket = 0
+Item Purchase Value = 0
+Expected Result = £0.00
+Actual Result = £0.00
+
+BUILD SUCCESSFUL (total time: 0 seconds)

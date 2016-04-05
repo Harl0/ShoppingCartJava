@@ -1,0 +1,65 @@
+run:
+Special offer NOW ON: 1) Buy ONE get ONE free on apples. 2) 3 for 2 on Oranges.
+Item Deal Amount = 1
+Item Count In Shopping Basket = 1
+Item Purchase Value = 60
+Expected Result = £0.60
+Actual Result = £0.60
+
+Special offer NOW ON: 1) Buy ONE get ONE free on apples. 2) 3 for 2 on Oranges.
+Item Deal Amount = 1
+Item Count In Shopping Basket = 3
+Item Purchase Value = 60
+Expected Result = £1.20
+Actual Result = £1.20
+
+Special offer NOW ON: 1) Buy ONE get ONE free on apples. 2) 3 for 2 on Oranges.
+Item Deal Amount = 1
+Item Count In Shopping Basket = 4
+Item Purchase Value = 60
+Expected Result = £1.20
+Actual Result = £1.20
+
+Special offer NOW ON: 1) Buy ONE get ONE free on apples. 2) 3 for 2 on Oranges.
+Item Deal Amount = 1
+Item Count In Shopping Basket = 99
+Item Purchase Value = 60
+Expected Result = £30.00
+Actual Result = £30.00
+
+Special offer NOW ON: 1) Buy ONE get ONE free on apples. 2) 3 for 2 on Oranges.
+Item Deal Amount = 2
+Item Count In Shopping Basket = 1
+Item Purchase Value = 25
+Expected Result = £0.25
+Actual Result = £0.25
+
+Special offer NOW ON: 1) Buy ONE get ONE free on apples. 2) 3 for 2 on Oranges.
+Item Deal Amount = 2
+Item Count In Shopping Basket = 3
+Item Purchase Value = 25
+Expected Result = £0.50
+Actual Result = £0.50
+
+Special offer NOW ON: 1) Buy ONE get ONE free on apples. 2) 3 for 2 on Oranges.
+Item Deal Amount = 2
+Item Count In Shopping Basket = 4
+Item Purchase Value = 25
+Expected Result = £0.75
+Actual Result = £0.75
+
+Special offer NOW ON: 1) Buy ONE get ONE free on apples. 2) 3 for 2 on Oranges.
+Item Deal Amount = 2
+Item Count In Shopping Basket = 99
+Item Purchase Value = 25
+Expected Result = £16.50
+Actual Result = £16.50
+
+Special offer NOW ON: 1) Buy ONE get ONE free on apples. 2) 3 for 2 on Oranges.
+Item Deal Amount = 0
+Item Count In Shopping Basket = 0
+Item Purchase Value = 0
+Expected Result = £0.00
+Actual Result = £0.00
+
+BUILD SUCCESSFUL (total time: 0 seconds)
